@@ -153,7 +153,7 @@ p {
   font-size: 1rem;
   color: var(--white);
   background-color: var(--primary-color);
-  border-radius: 5px;
+  border-radius: 25px;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -723,7 +723,7 @@ nav {
 /* start footer */
 .footer__container {
   display: grid;
-  gap: 4rem 2rem;
+  grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
 }
 
 .footer__logo {
@@ -862,3 +862,17 @@ nav {
 }
 
 /* End footer */
+
+.contact-row{
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.contact-text{
+  line-height: 1.6;
+}
+
+.title {
+  text-align: center;
+}
